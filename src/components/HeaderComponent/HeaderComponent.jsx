@@ -32,8 +32,9 @@ const HeaderComponent = ({ title }) => {
 
                 <div
                     className="
+                            
                             h-6
-                            flex items-center justify-between gap-2
+                            hidden sm:flex md:flex lg:flex xl:flex items-center justify-between gap-2
                             px-2 mx-2
                             rounded-full
                             bg-[#DFF7EC] dark:bg-[#223A2F]

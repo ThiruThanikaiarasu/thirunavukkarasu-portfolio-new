@@ -20,7 +20,7 @@ const FooterComponent = () => {
 
     return (
         <footer
-            className="flex flex-col gap-3"
+            className="flex flex-col gap-2"
         >
             <div
                 className="
@@ -101,10 +101,10 @@ const FooterComponent = () => {
                 <p
                     className="
                             text-center
-                            text-[#666666]
+                            text-[#666666] dark:text-[#C0C0C0]
                         "
                 >
-                    Designed by <strong className="font-medium text-[#000000]">Thirunavukkarasu</strong> &copy; 2024
+                    Designed by <strong className="font-medium text-[#000000] dark:text-[#F1FEFE]">Thirunavukkarasu</strong> &copy; 2024
                 </p>
             </div>
         </footer>
