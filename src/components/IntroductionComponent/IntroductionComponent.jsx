@@ -12,7 +12,7 @@ const IntroductionComponent = () => {
             >
                 <div
                     className="
-                                w-[80%] md:w-[60%] px-4
+                                w-[90%] md:w-[60%] px-4
                                 flex flex-col gap-4
                             "
                 >
@@ -37,7 +37,7 @@ const IntroductionComponent = () => {
                 </div>
 
                 <div
-                    className="w-[40%] sm:w-[35%] md:w-[25%] mr-[5%]"
+                    className="w-[50%] sm:w-[35%] md:w-[25%] mr-[5%]"
                 >
                     <img 
                         src={emoji} 

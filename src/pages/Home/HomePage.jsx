@@ -10,7 +10,7 @@ const HomePage = () => {
 
     return (
         <div
-            className="flex flex-col gap-12"
+            className="flex flex-col gap-8 md:gap-12"
         >
             <HeaderComponent title="Web Developer" />
 
