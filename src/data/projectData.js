@@ -1,8 +1,8 @@
-import jotify_icon from '../../src/assets/images/jotify_logo.png'
-import movie_rating_icon from '../../src/assets/images/movie-rating_logo.png'
-import jotify_mockup_1 from '../../src/assets/images/jotify_mockup_2.jpg'
-import jotify_mockup_2 from '../../src/assets/images/jotify_mockup_3.png'
-import movie_rating_mockup_1 from '../../src/assets/images/movie_rating_mockup_1.png'
+import jotify_icon from '../../src/assets/images/jotify_logo.webp'
+import movie_rating_icon from '../../src/assets/images/movie-rating_logo.webp'
+import jotify_mockup_1 from '../../src/assets/images/jotify_mockup_2.webp'
+import jotify_mockup_2 from '../../src/assets/images/jotify_mockup_3.webp'
+import movie_rating_mockup_1 from '../../src/assets/images/movie_rating_mockup_1.webp'
 
 const projects = [
     {

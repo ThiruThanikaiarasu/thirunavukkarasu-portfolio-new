@@ -1,7 +1,5 @@
 import React from 'react'
-import HireMeButtonComponent from '../HireMeButtonComponent/HireMeButtonComponent'
-import CopyEmailButtonComponent from '../CopyEmailButtonComponent/CopyEmailButtonComponent'
-import emoji from '../../assets/images/img1.jpg'
+import emoji from '../../assets/images/avatar.webp'
 
 const IntroductionComponent = () => {
     return (

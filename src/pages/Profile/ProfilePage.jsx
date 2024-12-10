@@ -1,5 +1,5 @@
 import React from 'react'
-import profile from '../../assets/images/img1.jpg'
+import profile from '../../assets/images/avatar.webp'
 import FooterComponent from '../../components/FooterComponent/FooterComponent'
 
 const ProfilePage = () => {
