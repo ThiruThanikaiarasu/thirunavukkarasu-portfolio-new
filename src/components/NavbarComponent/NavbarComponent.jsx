@@ -45,7 +45,7 @@ const NavbarComponent = () => {
                     </li>
                     <li className="flex items-center">
                         <NavLink
-                            to='/profile'
+                            to='/about'
                             className={({ isActive }) => 
                                 `rounded-full p-2 mx-2 transition-colors duration-200 ${isActive ? "bg-[#ececec] dark:bg-[#2C2C2C]" : ""}`
                             }

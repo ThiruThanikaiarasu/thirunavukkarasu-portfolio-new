@@ -17,7 +17,7 @@ const AppRoutes = () => {
             <Routes>
                 <Route element={<MainLayout />}>
                     <Route path='/' element={<HomePage />} />
-                    <Route path='/profile' element={<ProfilePage />} />
+                    <Route path='/about' element={<ProfilePage />} />
                     <Route path='/projects' element={<ProjectsPage />} />
                     <Route path='/projects/:title' element={<ProjectDetailsComponent />} />
                     <Route path='/contact' element={<ContactPage />} />
