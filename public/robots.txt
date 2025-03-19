@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://thirunavukkarasu.vercel.app/sitemap.xml

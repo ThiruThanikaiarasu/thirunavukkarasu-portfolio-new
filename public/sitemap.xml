@@ -2,20 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://thirunavukkarasu.vercel.app/</loc>
-    <lastmod>2025-03-19</lastmod>
+    <lastmod>2024-10-23T04:01:34Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://thirunavukkarasu.vercel.app/about</loc>
-    <lastmod>2025-03-19</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://thirunavukkarasu.vercel.app/contact</loc>
-    <lastmod>2025-03-19</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.8</priority>
   </url>
 </urlset>
