@@ -1,5 +1,5 @@
 import React from 'react'
-import emoji from '../../assets/images/avatar.webp'
+import emoji from '../../assets/images/thirunavukkarasu_avatar.webp'
 
 const IntroductionComponent = () => {
     return (

@@ -32,7 +32,7 @@ const ProjectCardComponent = ({ project }) => {
                         aria-hidden="true"
 
                     >
-                        <img src={project.icon} className="h-6 w-6 text-white" />
+                        <img src={project.icon} className="h-11 w-11 text-white object-contain" />
                     </div>
                 </div>
                 <div className="flex-1 min-w-0 px-2 flex flex-col gap-2">

@@ -3,8 +3,40 @@ import movie_rating_icon from '../../src/assets/images/movie-rating_logo.webp'
 import jotify_mockup_1 from '../../src/assets/images/jotify_mockup_2.webp'
 import jotify_mockup_2 from '../../src/assets/images/jotify_mockup_3.webp'
 import movie_rating_mockup_1 from '../../src/assets/images/movie_rating_mockup_1.webp'
+import log_ingestion_icon from '../../src/assets/images/log/logo.png'
+import log_ingestion_icon_2 from '../../src/assets/images/log/logo-2.png'
+import opportune_light from '../../src/assets/images/opportune_light.svg'
+import opportune_dark from '../../src/assets/images/opportune_dark.svg'
+
+const { isDarkMode } = useDataContext()
+
+const opportune_icon = isDarkMode ? opportune_light : opportune_dark
 
 const projects = [
+    {
+        title: 'Opportune',
+        description: 'Write, Share, Inspire, Connect.',
+        url: 'jotify',
+        website: 'https://blog-app-rouge-two.vercel.app',
+        icon: opportune_icon,
+        content1: 'Jotify is a sleek, minimalistic blogging platform where writers and readers can connect in a clean, distraction-free space.',
+        content2: 'Users can create their own accounts, publish blogs, and share their stories with an audience. Designed for simplicity and ease of use, Notify keeps the focus on content.',
+        content3: 'Readers can engage directly with blog posts by liking, saving, sharing, and commenting. Notify encourages an active, interactive community, offering readers ways to support and connect with their favorite writers while discovering fresh content. With its uncluttered design, Notify makes reading and creating an enjoyable, seamless experience.',
+        mockup1: jotify_mockup_1,
+        mockup2: jotify_mockup_2,
+    },
+    {
+        title: 'Log Ingestion Service',
+        description: 'Write, Share, Inspire, Connect.',
+        url: 'jotify',
+        website: 'https://blog-app-rouge-two.vercel.app',
+        icon: log_ingestion_icon,
+        content1: 'Jotify is a sleek, minimalistic blogging platform where writers and readers can connect in a clean, distraction-free space.',
+        content2: 'Users can create their own accounts, publish blogs, and share their stories with an audience. Designed for simplicity and ease of use, Notify keeps the focus on content.',
+        content3: 'Readers can engage directly with blog posts by liking, saving, sharing, and commenting. Notify encourages an active, interactive community, offering readers ways to support and connect with their favorite writers while discovering fresh content. With its uncluttered design, Notify makes reading and creating an enjoyable, seamless experience.',
+        mockup1: jotify_mockup_1,
+        mockup2: jotify_mockup_2,
+    },
     {
         title: 'Jotify',
         description: 'Write, Share, Inspire, Connect.',
